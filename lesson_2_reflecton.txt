@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 When I initialize a repository, it will create a hidden git direcotry
 including all meta data to help manage the respisotry.
+
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+The staging area acts as a cache between working directory and the repository.
+It will reduce the number of commit you need, and also other operations.
