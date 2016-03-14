@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all in your local computer?
+When I want to access my code from anywhere else other my local computer, it will be much more flexible and accessible.
