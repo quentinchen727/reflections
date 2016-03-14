@@ -33,3 +33,4 @@ git show commit_id # show the difference between this and its parent
 git branch -d branch_name # delete the branch, in effect, just a label
 
 
+#try to add some here
