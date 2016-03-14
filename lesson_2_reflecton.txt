@@ -6,3 +6,30 @@ How is the staging area different from the working directory and the
 repository? What value do you think it offers?
 The staging area acts as a cache between working directory and the repository.
 It will reduce the number of commit you need, and also other operations.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+By using "git diff --staged" to make sure the staging area only has one
+logical change before committing it.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+It is useful if I want to develop some new feature or some experimental
+version. It will be independent to the other branches, free from
+interruptions.
+
+How do the diagrams help you visualize the branch structure?
+It will clearly illustrate the relations between different branches.
+
+Branches are just labels related. Deleting a branch is equal to deleting a
+label, without touching the commits.
+some commands:
+git branch # to show the branches
+git merge master other # to merge branches
+git log --graph --oneline branch1 branch2 # to show relations between 2
+branches
+git checkout -b branch # create and checkout to that branch
+git show commit_id # show the difference between this and its parent
+git branch -d branch_name # delete the branch, in effect, just a label
+
+
