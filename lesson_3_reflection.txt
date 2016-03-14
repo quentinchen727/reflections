@@ -3,4 +3,4 @@ When I want to access my code from anywhere else other my local computer, it wil
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
-Thisw will give me more control on my code base.
+This will give me more control on my code base.
