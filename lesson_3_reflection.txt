@@ -4,3 +4,17 @@ When I want to access my code from anywhere else other my local computer, it wil
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 This will give me more control on my code base.
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+I use fork when copying a github repository from others;
+I use clones when copying a repository from my own github or local;
+I use branch when branching out in my local repository.
+
+some commands:
+git remote # display remote repository
+git remote add name remote_repository_address # add remote repository
+git remote -v # display verbose information of remote repos
+git push remote_name local_branch # push commmit to remote
+git pull reomte_name local_branch # pull commit to local
+
