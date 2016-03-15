@@ -18,6 +18,7 @@ git remote -v # display verbose information of remote repos
 git push remote_name local_branch # push commmit to remote
 git pull reomte_name local_branch # pull commit to local
 git fetch origin # update local copy of remote repository
+git log
 git merge master origin/master # merge local copy of remote repos and master
 git pull orgin master # is the same as the above two steps
 
@@ -36,3 +37,12 @@ I can create new branch in my own local repos, and initiate pull request to
 others to get reviews. Meanwhile, I can also receive request from others to
 review their code. The collaboration is easier, but the timing might be
 tricky.
+
+When would you want to make changes in a seperate branch rather than directly
+in master? What benefits does each approach have?
+I could experiment anything in a seprate branch without messing up the main
+branch. If I want to commit to master, I could pull request and after the code
+is reviewed, the merge could be safely performed. On the contrary, the first
+requires more steps than the second one.
+
+
