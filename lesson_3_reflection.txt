@@ -17,4 +17,12 @@ git remote add name remote_repository_address # add remote repository
 git remote -v # display verbose information of remote repos
 git push remote_name local_branch # push commmit to remote
 git pull reomte_name local_branch # pull commit to local
+git fetch origin # update local copy of remote repository
+git merge master origin/master # merge local copy of remote repos and master
+git pull orgin master # is the same as the above two steps
 
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+I can devolop my code offline and can still access to the copy of the
+remote repos. And If there is any conflict, I get to reslove the conflic on my
+local machine instead of messing up the remote repos.
