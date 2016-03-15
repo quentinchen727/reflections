@@ -26,3 +26,13 @@ stored locally?
 I can devolop my code offline and can still access to the copy of the
 remote repos. And If there is any conflict, I get to reslove the conflic on my
 local machine instead of messing up the remote repos.
+
+# Pull request is used to collaborate with other developers, asking reviews
+# from others.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be hard?
+I can create new branch in my own local repos, and initiate pull request to
+others to get reviews. Meanwhile, I can also receive request from others to
+review their code. The collaboration is easier, but the timing might be
+tricky.
